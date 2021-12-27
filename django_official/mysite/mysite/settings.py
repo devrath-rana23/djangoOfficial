@@ -31,6 +31,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'ngrane.apps.NgraneConfig',
+    'udemyclone.apps.UdemycloneConfig',
     'todo.apps.TodoConfig',
     'django.contrib.admin',
     'django.contrib.auth',
