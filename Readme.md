@@ -105,5 +105,7 @@ INSTALLED_APPS = [
 
 # Display the data
 
+# pip install django-coreapi (for api documentation)
+
 
 ##
