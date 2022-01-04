@@ -1,4 +1,4 @@
-#!/var/www/html/djangoOfficial/django_official/tutorial-env/bin/python
+#!/var/www/html/cart_app/djangoOfficial/django_official/tutorial-env/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
