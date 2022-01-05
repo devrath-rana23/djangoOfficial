@@ -1,6 +1,6 @@
 #  python3 -m pip install --upgrade pip
 # python3 -m venv tutorial-env
-# source /var/www/html/cartApp/djangoOfficial/django_official/tutorial-env/bin/activate
+# source /var/www/html/cart_app/djangoOfficial/django_official/tutorial-env/bin/activate
 
 # python -m pip install Django
 # django-admin startproject mysite (This will create two directories one having core project folder with same name and manage.py file and other is core project folder)
