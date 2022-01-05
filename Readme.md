@@ -109,3 +109,11 @@ INSTALLED_APPS = [
 
 
 ##
+
+# python manage.py runserver 0.0.0.0:8000  for integrating APIs in React native project
+
+## Refer for react native APIs integration
+
+# https://stackoverflow.com/questions/2260727/how-to-access-the-local-django-webserver-from-outside-world/2260745#2260745
+# https://stackoverflow.com/questions/52416576/react-native-fetch-api-does-not-work-with-localhost-ip-or-even-10-0-2-2
+# https://help.ubuntu.com/stable/ubuntu-help/net-findip.html.en

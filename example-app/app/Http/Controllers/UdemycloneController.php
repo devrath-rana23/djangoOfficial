@@ -36,17 +36,19 @@ class UdemycloneController extends Controller
      */
     public function store(CourseValidator $request)
     {
+
         $date_created = date('Y-m-d');
         $title = $request['title'];
+        $name = $request['name'];
         $author = $request['author'];
-        $duration = $request['duration'];
         $image_url = $request['image_url'];
-        // dd($date_created);
         $course_data = [
             'date_created' => $date_created,
-            'title' => $title,
-            'author' => $author,
-            'duration' => $duration,
+            'title' => $title.rand()*999,
+            'name' => $name.rand()*999,
+            'stock' => '5',
+            'added' => '0',
+            'author' => $author.rand()*999,
             'image_url' => $image_url,
         ];
         $response = UdemycloneApiHelper::createCourse($course_data);

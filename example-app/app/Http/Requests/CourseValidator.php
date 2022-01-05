@@ -25,8 +25,8 @@ class CourseValidator extends FormRequest
     {
         return [
             'title' => 'required|string|max:50',
+            'name' => 'required|string|max:50',
             'author' => 'required|string|max:50',
-            'duration' => 'required|string|max:50',
             'image_url' => 'required|string',
         ];
     }

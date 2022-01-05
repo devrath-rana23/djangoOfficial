@@ -156,11 +156,16 @@
             </p>
         </header>
         <form method="POST" action="{{route('course.store')}}" id="survey-form">
-        @csrf
-        
+            @csrf
+
             <div class="form-group">
                 <label id="title-label" for="title">Title</label>
                 <input type="text" name="title" id="title" class="form-control" placeholder="Enter course title" required>
+            </div>
+
+            <div class="form-group">
+                <label id="name-label" for="name">Name</label>
+                <input type="text" name="name" id="name" class="form-control" placeholder="Enter course name" required>
             </div>
 
             <div class="form-group">
@@ -171,11 +176,6 @@
             <div class="form-group">
                 <label id="image_url-label" for="image_url">Image Url</label>
                 <input type="text" name="image_url" id="image_url" class="form-control" placeholder="Enter course Image Url" required>
-            </div>
-
-            <div class="form-group">
-                <label id="duration-label" for="duration">duration<span class="clue">(optional)</span></label>
-                <input type="duration" name="duration" id="duration" min="1" max="99" class="form-control" placeholder="Enter duration in days">
             </div>
 
             <div class="form-group">
